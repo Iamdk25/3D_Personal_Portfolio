@@ -38,10 +38,6 @@ export const navLinks = [
     title: "Experience",
   },
   {
-    id: "tech",
-    title: "Stack",
-  },
-  {
     id: "projects",
     title: "Projects",
   },
@@ -49,35 +45,19 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-];
-
-const socials = [
   {
     id: "linkedin",
     title: "LinkedIn",
     href: "https://www.linkedin.com/in/dkarmariya/",
-    icon: LinkedInLogo,
+    imgSrc: LinkedInLogo,
   },
   {
     id: "github",
     title: "GitHub",
     href: "https://github.com/Iamdk25",
-    icon: GithubLogo,
+    imgSrc: GithubLogo,
   },
 ];
-
-const metrics = [
-  { value: "20%", label: "faster drug-discovery workflows", context: "AbbVie" },
-  { value: "20x", label: "visualization capacity scaled", context: "WebGPU platform" },
-  { value: "1M+", label: "interactive points at 60 fps", context: "bioinformatics" },
-  { value: "83.3%", label: "risk-flag detection accuracy", context: "CanvasLTI research" },
-];
-
-const contact = {
-  email: "divyarajsinhkarmariya@gmail.com",
-  location: "Tampa, FL",
-  resumeUrl: `${import.meta.env.BASE_URL}resume/Divyarajsinh_Karmariya_Resume.pdf`,
-};
 
 const services = [
   {
@@ -265,4 +245,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects, socials, metrics, contact };
+export { services, technologies, experiences, projects };

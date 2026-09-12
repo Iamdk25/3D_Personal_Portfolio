@@ -1,3 +1,6 @@
-import SceneRoot from "./SceneRoot";
+import EarthCanvas from "./Earth";
+import BallCanvas from "./Ball";
+import ComputersCanvas from "./Computers";
+import StarsCanvas from "./Stars";
 
-export { SceneRoot };
+export { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas };
