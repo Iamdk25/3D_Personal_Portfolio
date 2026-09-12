@@ -79,29 +79,16 @@ Follow these instructions to set up and run the project locally on your machine.
 
 2. **Open your browser and go to:**
 
-http://localhost:3000
+http://localhost:5173/3d_personal_portfolio/
 
 ### 🚀 Deployment
-To deploy the website on GitHub Pages, follow these steps:
+Deployment is automatic. Push to `main` and GitHub Actions builds the project and publishes `dist/` to GitHub Pages:
 
-1. **Build the project:**
-
-```bash
-  npm run build
+```
+  https://iamdk25.github.io/3d_personal_portfolio/
 ```
 
-2. **Push the dist folder to the gh-pages branch:**
-
-```bash
-  git add dist -f
-  git commit -m "Deploying to gh-pages"
-  git subtree push --prefix dist origin gh-pages
-```
-3. **Visit the deployed site:**
-   
-```
-  https://yourusername.github.io/3d_personal_portfolio
-```
+No manual build or `gh-pages` push is needed. Progress is visible under the repository's **Actions** tab (`Deploy to GitHub Pages`), and a run can also be started by hand with **Run workflow**. Keep the Pages source set to **GitHub Actions** in *Settings → Pages*.
 
 ### 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
