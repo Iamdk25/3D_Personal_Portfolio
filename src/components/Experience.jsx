@@ -68,7 +68,7 @@ const Experience = () => {
     <>
       <SectionHeading
         kicker="02 — Experience"
-        title="Six years of building, two of them shipping at scale."
+        title="Four years of building, two of them shipping at scale."
         description="Internships, research and student leadership — the through-line is automation that removes manual work."
       />
 
