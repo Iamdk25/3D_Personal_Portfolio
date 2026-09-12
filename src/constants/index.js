@@ -1,269 +1,248 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    sglogo,
-    COE,
-    shopify,
-    USF,
-    carrent,
-    LinkedInLogo,
-    GithubLogo,
-    Nischal,
-    Eric,
-    jobit,
-    tripguide,
-    threejs,
-    OpenCVShow,
-    DNSFinalProjectShow,
-    PortfolioWebsiteShow,
+  mobile,
+  backend,
+  creator,
+  web,
+  python,
+  typescript,
+  javascript,
+  reactjs,
+  nodejs,
+  tailwind,
+  mongodb,
+  postgresql,
+  pytorch,
+  aws,
+  docker,
+  threejs,
+  COE,
+  USF,
+  abbvie,
+  veer,
+  engcouncil,
+  gwc,
+  paal,
+  eeris,
+  quantumstock,
+  LinkedInLogo,
+  GithubLogo,
+} from "../assets";
 
-  } from "../assets";
-  
-  export const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
-    {
-      id: "work",
-      title: "Work",
-    },
-    {
-      id: "contact", 
-      title: "Contact",
-    },
-    {
-      id: "linkedin", 
-      title: "LinkedIn",
-      href : "https://www.linkedin.com/in/dkarmariya/",
-      imgSrc : LinkedInLogo,
-    },
-    {
-      id: "github", 
-      title: "GitHub",
-      href : "https://github.com/Iamdk25",
-      imgSrc : GithubLogo
-    }
-  ];
-  
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "iOS Developer",
-      icon: backend,
-    },
-    {
-      title: "Interactive Dashboard Designer",
-      icon: creator,
-    },
-  ];
-  
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
-  ];
-  
-  const experiences = [
-    {
-      title: "Procurement Card Student Assistant",
-      company_name: "College of Engineering - Resource Management",
-      icon: COE,
-      iconBg: "#008631",
-      date: "September 2023 - Present",
-      points: [
-        "Conducting PCard verifications for 350+ professors, and maintaining financial resource management at ERM.",
-        "Collaborating with JP Morgan and Chase and decrease statement processing time by 10%.",
-        "Assisting in reconciling bank statements for professors, and managing multiple budgets across several departments.",
-      ],
-    },
-    {
-      title: "Campus Council Representative",
-      company_name: "USF Student Government",
-      icon: sglogo,
-      iconBg: "#E6DEDD",
-      date: "May 2023 - Sept 2023",
-      points: [
-        "Overlooked 1000+ student organization interim budget requests, travel grants, events requests, for etc.",
-        "Ensured smooth conduct of fund distribution and fair assessment to all organizations.",
-        "Validated the safe and fair conduct of elections while adhering to both ethical codes and procedural norms.",
-      ],
-    },
-    {
-      title: "Peer Mentor",
-      company_name: "ACE, Office of Undergraduate Studies",
-      icon: USF,
-      iconBg: "#383E56",
-      date: "May 2023 - Present",
-      points: [
-        "Conducted group meetings with 30+ students and provided them with necessary information to succeed in college.",
-        "Hosted office hours and offered 1 on 1 mentorship for student facing academic challenges.",
-        "Gained valuable crowd management abilities and cultivated crucial leadership and mentoring skills.",
-      ],
-    },
-    {
-      title: "Student Housing Assistant",
-      company_name: "Housing and Residential Education, USF",
-      icon: USF,
-      iconBg: "#E6DEDD",
-      date: "April 2023 - Present",
-      points: [
-        "Acted as a first line of response by ensuring the safety of students by conducting safe management of keys and access cards.",
-        "Created a positive residential experience for students, guests, and visitors.",
-        "Handled over 150 packages and mails per day at the campus mailing center.",
-      ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "Divyarajsinh is a very knowledgeable and bright individual to study with. He never fails to impress me!",
-      name: "Eric Higgins",
-      designation: "Operations Analyst",
-      company: "Citi",
-      image: "src/assets/Eric.jpeg",
-    },
-    {
-      testimonial:
-        "Divyarajsinh Karmariya is an exceptional learner and a patient listener. Mentoring him, especially during his exams, I witnessed his eagerness to explore new technology and dedication to excellence. His proactive approach and curiosity make him an asset in any team.",
-      name: "Nischal Olety Nagesh",
-      designation: "Techincal Analyst Intern",
-      company: "Cummins",
-      image: "src/assets/Nischal.jpeg",
-    },
-    
-  ];
-  
-  const projects = [
-    {
-      name: "Python-Based Object Detector Using OpenCV",
-      description:
-        "An advanced Python-based object detection system for images and videos using OpenCV and GoogleNet Frameworks.",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "OpenCV",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Machine Learning",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: OpenCVShow,
-      source_code_link: "https://github.com/Iamdk25/Open-CV-Python-project",
-    },
-    {
-      name: "Parking & Offense Management System",
-      description:
-        "A project to manage, and keep track of all the final parking citation appeals that come to the USF Student Government Supreme Court.",
-      tags: [
-        {
-          name: "DataStructures",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "BFSDFS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "C++",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: DNSFinalProjectShow,
-      source_code_link: "https://github.com/Iamdk25/DNS_Final_Project",
-    },
-    {
-      name: "Personal 3D Portfolio Website",
-      description:
-        "A visually striking 3D portfolio website that showcases my skills and projects using 3D environments, rendering, camera controls and advanced lighting effects.",
-      tags: [
-        {
-          name: "threeJS",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "ReactJS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "TailwindCSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: PortfolioWebsiteShow,
-      source_code_link: "https://github.com/",
-    },
-  ];
-  
-  export {  services, technologies, experiences, testimonials, projects };
+export const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "experience",
+    title: "Experience",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+  {
+    id: "linkedin",
+    title: "LinkedIn",
+    href: "https://www.linkedin.com/in/dkarmariya/",
+    imgSrc: LinkedInLogo,
+  },
+  {
+    id: "github",
+    title: "GitHub",
+    href: "https://github.com/Iamdk25",
+    imgSrc: GithubLogo,
+  },
+];
+
+const services = [
+  {
+    title: "Full-Stack Engineering",
+    icon: web,
+    description:
+      "React, TypeScript and Next.js front ends over Node and FastAPI services — schema, API and UI built end to end.",
+  },
+  {
+    title: "AI / ML Engineering",
+    icon: backend,
+    description:
+      "PyTorch and I-JEPA embeddings, RAG pipelines with LangChain, CrewAI and Pinecone, plus evaluation harnesses that keep output grounded.",
+  },
+  {
+    title: "Data Visualization at Scale",
+    icon: creator,
+    description:
+      "WebGPU and Web Workers rendering 1M+ concurrent interactive points at sub-100ms latency and 60 fps.",
+  },
+  {
+    title: "iOS Development",
+    icon: mobile,
+    description:
+      "Swift applications built through CodePath's Intermediate iOS Development program.",
+  },
+];
+
+const technologies = [
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
+    name: "PyTorch",
+    icon: pytorch,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+];
+
+const experiences = [
+  {
+    title: "Software Engineering Intern",
+    company_name: "AbbVie",
+    icon: abbvie,
+    iconBg: "#071D49",
+    date: "May 2026 - Present",
+    points: [
+      "Accelerated enterprise drug discovery by 20% by engineering an end-to-end MLOps image-processing CI/CD pipeline that classifies clinical cellular phenotypic phases from I-JEPA PyTorch embeddings.",
+      "Scaled visualization capacity 20x by building bioinformatics platforms that render 1M+ concurrent interactive data points at sub-100ms latency and 60 fps using React 18, TypeScript, WebGPU, Web Workers and TanStack routing.",
+      "Cut data retrieval latency by 40% by constructing an asynchronous FastAPI microservice (15+ REST endpoints) on AWS S3 that executes cosine similarity over microscopy datasets.",
+    ],
+  },
+  {
+    title: "AI/ML Research Assistant",
+    company_name: "USF Bellini College of AI, Cybersecurity, and Computing",
+    icon: USF,
+    iconBg: "#006747",
+    date: "May 2026 - Present",
+    points: [
+      "Diagnosed student cognitive states in real time with sub-250 ms latency by building a secure CanvasLTI platform that maps memory context, reaching 83.3% risk-flag detection accuracy.",
+      "Reduced passive answer seeking by 40% with a React generative UI and a zero-leakage Python evaluation harness (LangChain + Pydantic) that enforces deterministic JSON schemas and generates context-aware follow-up prompts.",
+    ],
+  },
+  {
+    title: "Procurement Card Student Assistant",
+    company_name: "USF College of Engineering - Resource Management",
+    icon: COE,
+    iconBg: "#008631",
+    date: "September 2023 - April 2026",
+    points: [
+      "Streamlined expenditure approvals for 350+ PCards by automating financial verification with Python libraries.",
+      "Optimized reconciliation workflows for J.P. Morgan & Chase, reducing statement processing time by 10%.",
+      "Accelerated approval flow to securely process 150+ approvals per day by developing AI-driven ticketing systems on Jira APIs.",
+    ],
+  },
+  {
+    title: "Business and Technology Intern",
+    company_name: "Veer Pharmachem",
+    icon: veer,
+    iconBg: "#0E7490",
+    date: "April 2022 - July 2022",
+    points: [
+      "Reduced reporting errors by 95% and analysis time by 20% by developing a Power BI dashboard that visualizes 500+ QC batches.",
+      "Eliminated 3+ hours of weekly manual checks by programming an automated inventory tracker in C for 250+ reagents.",
+      "Increased sales inquiries by over 30% by redesigning website lead-capture forms in Figma using standard UX principles.",
+    ],
+  },
+  {
+    title: "Marketing & Communications Chair",
+    company_name: "Engineering Council, University of South Florida",
+    icon: engcouncil,
+    iconBg: "#006747",
+    date: "May 2024 - May 2026",
+    points: [],
+  },
+  {
+    title: "Technical Chair",
+    company_name: "Girls Who Code College Loop, USF Chapter",
+    icon: gwc,
+    iconBg: "#0EA5A4",
+    date: "January 2023 - May 2024",
+    points: [],
+  },
+];
+
+const projects = [
+  {
+    name: "PAAL - Promptless AI-Assisted Learning",
+    description:
+      "A deterministic RAG learning platform that removes prompt-engineering friction. A 5-agent CrewAI pipeline on Gemini 2.5 Flash ingests course material through LlamaParse and LangChain into Pinecone, while a 7-endpoint FastAPI backend and a React 19 front end generate dynamic quizzes and personalized study guides with fully grounded output.",
+    tags: [
+      { name: "CrewAI", color: "blue-text-gradient" },
+      { name: "LangChain", color: "green-text-gradient" },
+      { name: "FastAPI", color: "pink-text-gradient" },
+      { name: "React 19", color: "blue-text-gradient" },
+    ],
+    image: paal,
+    source_code_link: "https://github.com/Iamdk25/PAALapp",
+  },
+  {
+    name: "EERIS - Expense Management Platform",
+    description:
+      "A secure full-stack expense manager for 1,000+ users, with a React and Vite front end providing OTP login and real-time tracking over a Node.js/Express REST API. An OpenAI-powered receipt classifier cut processing time by 27%, with Nodemailer handling automated notifications.",
+    tags: [
+      { name: "React", color: "blue-text-gradient" },
+      { name: "Node.js", color: "green-text-gradient" },
+      { name: "Express", color: "pink-text-gradient" },
+      { name: "MongoDB", color: "blue-text-gradient" },
+    ],
+    image: eeris,
+    source_code_link: "https://github.com/deshninad/EERIS",
+  },
+  {
+    name: "QuantumStock - Predictive Market Analysis",
+    description:
+      "A C# stock analysis application on the .NET Framework that models 5,000+ data points behind a Windows Forms GUI, with a Gemini API-powered 'SmartCandlestick' module that detects 12+ patterns and improved trend-forecasting accuracy by 35%.",
+    tags: [
+      { name: "C#", color: "blue-text-gradient" },
+      { name: ".NET", color: "green-text-gradient" },
+      { name: "Gemini API", color: "pink-text-gradient" },
+      { name: "Tableau", color: "blue-text-gradient" },
+    ],
+    image: quantumstock,
+    source_code_link: "https://github.com/Iamdk25/QuantumStock",
+  },
+];
+
+export { services, technologies, experiences, projects };

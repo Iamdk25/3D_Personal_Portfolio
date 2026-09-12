@@ -35,16 +35,18 @@ const ExperienceCard = ({ experience }) => (
         </p>
       </div>  
 
-      <ul className='mt-5 list-disc ml-5 space-y-2'>
-        {experience.points.map((point, index) => (
-          <li
-            key={`experience-point-${index}`}
-            className='text-white-100 text-[14px] pl-1 tracking-wider'
-          >
-            {point}
-          </li>
-        ))}
-      </ul>
+      {experience.points.length > 0 && (
+        <ul className='mt-5 list-disc ml-5 space-y-2'>
+          {experience.points.map((point, index) => (
+            <li
+              key={`experience-point-${index}`}
+              className='text-white-100 text-[14px] pl-1 tracking-wider'
+            >
+              {point}
+            </li>
+          ))}
+        </ul>
+      )}
     </VerticalTimelineElement>
 )
 
@@ -67,4 +69,4 @@ const Experience = () => {
   )
 }
 
-export default SectionWrapper(Experience, "work") // Experience is the name of the component and "work" is the name of the section in Experience
+export default SectionWrapper(Experience, "experience") // Experience is the name of the component and "work" is the name of the section in Experience

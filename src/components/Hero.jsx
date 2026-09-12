@@ -14,8 +14,15 @@ const Hero = () => {
         </div>
       
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}> Hello there! I'm <span className = "text-[#915eff]">Divyarajsinh.</span></h1>
-          <p className= {`${styles.heroSubText} mt-2 text-white-100`}>I am in love with CS!</p>
+          <h1 className={`${styles.heroHeadText} text-white`}> Hi, I&apos;m <span className = "text-[#915eff]">Divyarajsinh.</span></h1>
+          <p className= {`${styles.heroSubText} mt-2 text-white-100`}>
+            I build full-stack AI systems — PyTorch and RAG pipelines behind
+            React interfaces that stay fast at a million data points.
+          </p>
+          <p className='mt-6 text-secondary text-[14px] sm:text-[17px] leading-[26px] max-w-2xl'>
+            Software Engineering Intern at AbbVie · AI/ML Research Assistant at USF ·
+            Computer Science senior graduating December 2026
+          </p>
         </div>
       </div>
 

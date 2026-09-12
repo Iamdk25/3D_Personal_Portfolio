@@ -40,7 +40,7 @@ const Navbar = () => {
          }}>
           <img src={logo} alt="logo" style={{ cursor: "pointer", width: "50px", height: "50px"}} />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>Divyarajsinh Karmariya &nbsp;
-          <span className='sm:block hidden'> | Software Developer 
+          <span className='sm:block hidden'> | Full-Stack &amp; AI Engineer 
           </span>
           </p>
         </Link>

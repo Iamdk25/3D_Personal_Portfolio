@@ -64,14 +64,14 @@ const Works = () => {
   return (
     <>
     <motion.div variants = {textVariant()}>
-      <p className={`${styles.sectionHeadText} text-center`}>Projects</p>
-      <h2 className={`${styles.sectionSubText} mt-4 text-center`}>What I have done so far</h2>
+      <p className={`${styles.sectionHeadText} text-center`}>Work</p>
+      <h2 className={`${styles.sectionSubText} mt-4 text-center`}>Projects I have led and shipped</h2>
     </motion.div> 
 
     <div className='w-full flex'>
       <motion.p variants = {fadeIn("", "", 0.1, 1)}
       className='mt-4 text-secondary text-center font-medium text-[17px] max-w-6xl leading-[30px]'>
-      I am currently working on my upcoming projects. Here, I have showcased some of my favourite projects which deal with different disciplines in Computer Science. I am always open to new projects. If you have any suggestions, feel free to message me on my LinkedIn.
+      Three projects I have built end to end — a deterministic RAG learning platform, a full-stack expense manager used by 1,000+ people, and a predictive market-analysis tool. Each card links to the source on GitHub, and I am always open to collaborating on something new.
 
       </motion.p>
     </div>
@@ -86,4 +86,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

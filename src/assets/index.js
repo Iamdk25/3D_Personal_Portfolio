@@ -7,38 +7,32 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
+import aws from "./tech/aws.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
+import postgresql from "./tech/postgresql.png";
+import python from "./tech/python.png";
+import pytorch from "./tech/pytorch.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import typescript from "./tech/typescript.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import abbvie from "./company/abbvie.png";
 import COE from "./company/COE.png";
-import sglogo from "./company/sglogo.png";
+import engcouncil from "./company/engcouncil.png";
+import gwc from "./company/gwc.png";
 import USF from "./company/USF.png";
-import OpenCVShow from "./OpenCVShow.png";
-import DNSFinalProjectShow from "./DNSFinalProjectShow.png";
-import PortfolioWebsiteShow from "./PortfolioWebsiteShow.png";
+import veer from "./company/veer.png";
+
+import eeris from "./projects/eeris.png";
+import paal from "./projects/paal.png";
+import quantumstock from "./projects/quantumstock.png";
+
 import LinkedInLogo from "./LinkedInLogo.png";
 import GithubLogo from "./GithubLogo.png";
-import Nischal from "./Nischal.jpeg";
-import Eric from "./Eric.jpeg";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 export {
   logo,
@@ -49,34 +43,27 @@ export {
   github,
   menu,
   close,
-  css,
+  aws,
   docker,
-  figma,
-  git,
-  html,
   javascript,
   mongodb,
   nodejs,
+  postgresql,
+  python,
+  pytorch,
   reactjs,
-  redux,
   tailwind,
-  typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  typescript,
+  abbvie,
   COE,
+  engcouncil,
+  gwc,
   USF,
+  veer,
+  eeris,
+  paal,
+  quantumstock,
   LinkedInLogo,
   GithubLogo,
-  OpenCVShow,
-  DNSFinalProjectShow,
-  PortfolioWebsiteShow,
-  Nischal,
-  Eric,
-  sglogo,
-  carrent,
-  jobit,
-  tripguide,
 };
